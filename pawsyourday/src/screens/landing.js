@@ -1,18 +1,14 @@
 import React from 'react';
   
-const LandingPage = () => {
+const Landing = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
-      <h1>Landing page.</h1>
+    <div class="wrapper">
+      <h1>Paws Your Day!</h1>
+        <div class="left-wrapper">
+            
+        </div>
     </div>
   );
 };
   
-export default LandingPage;
+export default Landing;

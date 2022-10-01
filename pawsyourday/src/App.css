@@ -32,3 +32,9 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper {
+  background-color: greenyellow;
+  width: 100%;
+  height: 100%;
+}
