@@ -1,3 +1,9 @@
-.back-arrow {
+.navigation-arrow {
     align-items: left;
+}
+
+.alarm {
+    background-color: #b1b695;
+    min-height: 100vh;
+    min-width: 100vh;
 }
