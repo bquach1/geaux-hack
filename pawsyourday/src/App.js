@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Button } from 'react';
 import './App.css';
+import { Routes, Route, useNavigate, BrowserRouter} from 'react-router-dom';
 
 import AlarmPage from './screens/alarm';
 import LandingPage from './screens/landing';
@@ -7,15 +8,16 @@ import ExercisePage from './screens/exercise';
   
 function App() {
 
-  // useEffect(() => {
-  //   document.body.style.overflow = "hidden";
-  // }, []);
-
   return (
     <div className='App'>
-      <LandingPage />
-      <ExercisePage />
-      <AlarmPage />
+      <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<LandingPage />} />
+            <Route path='/landing' element={<LandingPage />} />
+            <Route path='/exercise' element={<ExercisePage />} />
+            <Route path='/alarm' element={<AlarmPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

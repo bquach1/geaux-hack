@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Slider from '../components/sliders/slider';
 import { ChevronUp, ChevronDown, ThumbsDown, ThumbsUp } from 'react-feather';
+import { NavigationType, useNavigate } from "react-router-dom";
+
 import '../components/css/landing.css';
 
 
@@ -8,6 +10,8 @@ const Landing = () => {
   const [exerciseVal, setExerciseVal] = useState(0);
   const [sleepVal, setSleepVal] = useState(0);
   var healthVal = (exerciseVal + sleepVal) / 2;
+
+  let navigate = useNavigate();
 
   return (
     <div class="wrapper">
@@ -21,7 +25,7 @@ const Landing = () => {
                     {exerciseVal < 5 && <h2 class="text">You've been working out less.</h2>}   
                     {exerciseVal >= 8 && <h2 class="text">You've been super active!</h2>}
                 </div>
-            <button onClick={() => console.log("exercise")}>See More Exercise Options</button>
+            <button onClick={() => {{(navigate('/exercise'))}}}>See More Exercise Options</button>
         </div>
 
         <div class="general-section">
@@ -61,7 +65,7 @@ const Landing = () => {
                     {(sleepVal >= 6 && sleepVal < 8) && <h2 class="text">You've been sleeping okay.</h2>}   
                     {sleepVal >= 8 && <h2 class="text">You've been sleeping a good amount!</h2>}
                 </div>
-            <button>See More Sleep Options</button>
+                <button onClick={() => {{(navigate('/alarm'))}}}>See More Sleeping Options</button>
         </div>
 
       </div>
