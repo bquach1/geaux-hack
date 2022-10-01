@@ -26,6 +26,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.rate-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    align-items: center;
+}
+
 /* slider */
 .vertical-slider {
     height: 380px;
