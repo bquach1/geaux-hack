@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './screens/landing.js'
 import ExercisePage from './screens/exercise.js'
 import AlarmClockPage from './screens/alarmClock.js'

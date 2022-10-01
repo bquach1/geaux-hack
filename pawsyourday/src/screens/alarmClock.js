@@ -5,9 +5,11 @@ const AlarmClockPage = () => {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        fontSize: '100px',
+        color: 'black'
       }}
     >
       <h1>Alarm clock page.</h1>

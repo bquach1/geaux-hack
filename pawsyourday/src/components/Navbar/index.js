@@ -13,7 +13,6 @@ const Navbar = () => {
     <>
       <Nav>
         <Bars />
-  
         <NavMenu>
           <NavLink to='/landing' activeStyle>
             Home
