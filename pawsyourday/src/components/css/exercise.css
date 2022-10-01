@@ -4,6 +4,10 @@
     min-width: 100vh;
 }
 
+.images {
+    background-color: black;
+}
+
 .horizontal-slider {
     width: 100%;
     max-width: 500px;
