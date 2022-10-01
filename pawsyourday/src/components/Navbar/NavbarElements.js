@@ -4,13 +4,12 @@ import styled from 'styled-components';
   
 export const Nav = styled.nav`
   background: #63D471;
-  height: 85px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   margin: auto;
   align-items: center;
-  z-index: 12;
-  /* justify-content: flex-start; */
+  z-index: 12; 
 `;
   
 export const NavLink = styled(Link)`

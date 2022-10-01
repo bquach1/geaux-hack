@@ -4,6 +4,7 @@
     min-width: 60vh;
     border-radius: 25px;
     margin: auto;
+    margin-bottom: 5%;
 }
 
 .sleep-section {
@@ -12,6 +13,7 @@
     min-width: 60vh;
     border-radius:25px;
     margin: auto;
+    margin-bottom: 5%;
 }
 
 .general-section {
@@ -20,6 +22,7 @@
 }
 
 .title {
+    padding-top:20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

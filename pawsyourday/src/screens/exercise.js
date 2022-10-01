@@ -1,18 +1,14 @@
 import React from 'react';
+import Slider from '../components/sliders/slider'
   
-const ExercisePage = () => {
+const Exercise = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
-      <h1>Exercise page.</h1>
+    <div class="exercise">
+      <h1 class="title">Geaux Exercise!</h1>
+      <h2>Please rate the intensity of your day.</h2>
+      <Slider />
     </div>
   );
 };
   
-export default ExercisePage;
+export default Exercise;
