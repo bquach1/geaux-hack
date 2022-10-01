@@ -1,0 +1,20 @@
+body {
+  background-color: #a690a4;
+  font-family: "Monaco",monospace ;
+
+  color: white;
+
+  line-height: 180%;
+  align-items: center;
+}
+
+.div1 {
+  background: #fcd0a1;
+  color: black;
+  
+}
+
+canvas  {
+  border-radius: 3px;
+  
+}
