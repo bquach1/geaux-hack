@@ -65,3 +65,29 @@
   .example-track.example-track-0 {
     background: #00d4ff;
   }
+
+#upIcon {
+    cursor: pointer;
+}
+
+#downIcon {
+    cursor: pointer;
+}
+
+#upIcon:hover {
+    transform: scale(1.5);
+    color: green;
+}
+
+#downIcon:hover {
+    transform: scale(1.5);
+    color:red;
+}
+
+#thumbsUp {
+    color: green;
+}
+
+#thumbsDown {
+    color: red;
+}

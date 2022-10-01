@@ -1,17 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect, Button } from 'react';
 import './App.css';
-import './components/css/landing.css';
-import './components/css/exercise.css';
-import './components/css/sliders.css';
-import AppRouter from './AppRouter';
+
 import AlarmPage from './screens/alarm';
 import LandingPage from './screens/landing';
 import ExercisePage from './screens/exercise';
   
 function App() {
+
+  // useEffect(() => {
+  //   document.body.style.overflow = "hidden";
+  // }, []);
+
   return (
     <div className='App'>
-      <AppRouter />
       <LandingPage />
       <ExercisePage />
       <AlarmPage />

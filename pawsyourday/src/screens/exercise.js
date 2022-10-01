@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../components/sliders/slider';
+import '../components/css/exercise.css';
 import Squats from '../components/images/squats.png';
   
 const Exercise = () => {

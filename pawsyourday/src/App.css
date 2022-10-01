@@ -6,6 +6,11 @@
   min-width: '100vh'; */
 }
 
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
 .wrapper {
   background-color: #afd2e9;
 }
@@ -15,6 +20,14 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 5%;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  margin-top: 50%;
+  align-items: center;
 }
 
 .title {
