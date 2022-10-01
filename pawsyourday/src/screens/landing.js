@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactSlider from 'react-slider';
+import Slider from '../components/slider';
   
 const Landing = () => {
   return (
@@ -9,7 +11,7 @@ const Landing = () => {
             <h1 class="title">Exercise for You</h1>
         </div>
         <div class="general-section">
-            <h1 class="title">Rate Your Day</h1>
+            <Slider />
         </div>
         <div class="sleep-section">
             <h1 class="title">Your Sleep Schedule</h1>
