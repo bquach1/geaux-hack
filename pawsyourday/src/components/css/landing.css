@@ -1,0 +1,24 @@
+.exercise-section {
+    background-color: purple;
+    min-height: 80vh;
+    min-width: 60vh;
+    border-radius:25px;
+    margin: auto;
+}
+
+.sleep-section {
+    background-color: rgb(29, 85, 113);
+    min-height: 80vh;
+    min-width: 60vh;
+    border-radius:25px;
+    margin: auto;
+}
+
+.general-section {
+    border-color: black;
+    border-width: 10px;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
