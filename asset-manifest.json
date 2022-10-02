@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/geaux-hack/static/css/main.a78009e2.css",
-    "main.js": "/geaux-hack/static/js/main.d863a2e6.js",
+    "main.css": "/geaux-hack/static/css/main.45d0e468.css",
+    "main.js": "/geaux-hack/static/js/main.d639464f.js",
     "static/media/squats.png": "/geaux-hack/static/media/squats.e795a60ff85a954409f2.png",
     "index.html": "/geaux-hack/index.html",
-    "main.a78009e2.css.map": "/geaux-hack/static/css/main.a78009e2.css.map",
-    "main.d863a2e6.js.map": "/geaux-hack/static/js/main.d863a2e6.js.map"
+    "main.45d0e468.css.map": "/geaux-hack/static/css/main.45d0e468.css.map",
+    "main.d639464f.js.map": "/geaux-hack/static/js/main.d639464f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a78009e2.css",
-    "static/js/main.d863a2e6.js"
+    "static/css/main.45d0e468.css",
+    "static/js/main.d639464f.js"
   ]
 }
