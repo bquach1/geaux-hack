@@ -1,6 +1,6 @@
-import React, { useState, useEffect, Button } from 'react';
+import React, { } from 'react';
 import './App.css';
-import { Routes, Route, useNavigate, BrowserRouter} from 'react-router-dom';
+import { Routes, Route, BrowserRouter} from 'react-router-dom';
 
 import AlarmPage from './screens/alarm';
 import LandingPage from './screens/landing';
@@ -12,7 +12,7 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <Routes>
-            <Route path='/' element={<LandingPage />} />
+            <Route path='/geaux-hack' element={<LandingPage />} />
             <Route path='/landing' element={<LandingPage />} />
             <Route path='/exercise' element={<ExercisePage />} />
             <Route path='/alarm' element={<AlarmPage />} />
