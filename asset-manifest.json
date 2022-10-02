@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pawsyourday/static/css/main.a78009e2.css",
-    "main.js": "/pawsyourday/static/js/main.8c389bb3.js",
-    "static/media/squats.png": "/pawsyourday/static/media/squats.e795a60ff85a954409f2.png",
-    "index.html": "/pawsyourday/index.html",
-    "main.a78009e2.css.map": "/pawsyourday/static/css/main.a78009e2.css.map",
-    "main.8c389bb3.js.map": "/pawsyourday/static/js/main.8c389bb3.js.map"
+    "main.css": "/geaux-hack/static/css/main.a78009e2.css",
+    "main.js": "/geaux-hack/static/js/main.d863a2e6.js",
+    "static/media/squats.png": "/geaux-hack/static/media/squats.e795a60ff85a954409f2.png",
+    "index.html": "/geaux-hack/index.html",
+    "main.a78009e2.css.map": "/geaux-hack/static/css/main.a78009e2.css.map",
+    "main.d863a2e6.js.map": "/geaux-hack/static/js/main.d863a2e6.js.map"
   },
   "entrypoints": [
     "static/css/main.a78009e2.css",
-    "static/js/main.8c389bb3.js"
+    "static/js/main.d863a2e6.js"
   ]
 }
